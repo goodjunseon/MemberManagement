@@ -1,23 +1,31 @@
 # <center> Backend #
 
 --- 
+### Spring Boot ###
+ver : 3.4.3
+### JPA ###
 
-
-[백엔드 요구사항 명세서](https://docs.google.com/spreadsheets/d/1_wE6SqfSCL_gpjr-ojc6GhWBP2Y6PBwH4nXccZfwBX0/edit?gid=0#gid=0)
+### mySQL + mySQL Workbench ###
+ver : 8.0.3
 
 
 ---
 
-## 📌 주요 기능 ##
+## 📌 기능 설명 ##
+1. 회원 생성(회원가입)  
+2. 회원 로그인  
+3. 회원 삭제(탈퇴)  
+4. 회원 조회(findAll, findBy)
+
 
 ---
-### 🤓회원 기능 ###
+### 🤓회원 정보 ###
 
-| 기능    | 설명 | 
-|-------|----|
-| 로그인기능 | 테스트2 |
-| 테스트1  | 테스트2 |
-| 테스트1  | 테스트2 |
+| 회원 | ID | email             | 비밀번호 | 이름  | 전화번호          | 생년월일       |
+|--|----|-------------------|------|-----|---------------|------------|
+|  | 1  | example@gmail.com | 0000 | 박준선 | 010-1234-5678 | YYYY-MM-DD |
+
+
 
 
 
