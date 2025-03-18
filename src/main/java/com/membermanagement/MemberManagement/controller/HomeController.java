@@ -1,4 +1,4 @@
-package com.sundayleague.SundayLeague.controller;
+package com.membermanagement.MemberManagement.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

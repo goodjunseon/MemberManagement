@@ -1,6 +1,5 @@
 package com.sundayleague.SundayLeague.entity;
 
-import com.sundayleague.SundayLeague.dto.MemberDTO;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -29,29 +28,4 @@ public class MemberEntity {
     @Column
     private String memberDate; // 생년월일 YYYY-MM-DD
 
-
-    public static MemberEntity toMemberEntity(MemberDTO memberDTO) {
-        MemberEntity memberEntity = new MemberEntity();
-
-        memberEntity.setMemberEmail(memberDTO.getMemberEmail());
-        memberEntity.setMemberPassword(memberDTO.getMemberPassword());
-        memberEntity.setMemberName(memberDTO.getMemberName());
-        memberEntity.setMemberTel(memberDTO.getMemberTel());
-        memberEntity.setMemberDate(memberDTO.getMemberDate());
-
-        return memberEntity;
-    }
-
-    public static MemberEntity toUpdateMemberEntity(MemberDTO memberDTO) {
-        MemberEntity memberEntity = new MemberEntity();
-
-        memberEntity.setId(memberDTO.getId());
-        memberEntity.setMemberEmail(memberDTO.getMemberEmail());
-        memberEntity.setMemberPassword(memberDTO.getMemberPassword());
-        memberEntity.setMemberName(memberDTO.getMemberName());
-        memberEntity.setMemberTel(memberDTO.getMemberTel());
-        memberEntity.setMemberDate(memberDTO.getMemberDate());
-
-        return memberEntity;
-    }
 }

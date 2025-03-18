@@ -1,13 +1,13 @@
-package com.sundayleague.SundayLeague;
+package com.membermanagement.MemberManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SundayLeagueApplication {
+public class MemberManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SundayLeagueApplication.class, args);
+		SpringApplication.run(MemberManagementApplication.class, args);
 	}
 
 }
